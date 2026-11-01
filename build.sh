@@ -9,13 +9,26 @@ rm -rf "$OUT" && mkdir -p "$OUT"
 urlenc() { python3 -c 'import sys, urllib.parse; print(urllib.parse.quote(sys.argv[1]))' "$1"; }
 htmlesc() { python3 -c 'import sys, html; print(html.escape(sys.argv[1]))' "$1"; }
 
-items=""
+cards=""
 for deck in */slides.md; do
   trip="${deck%/slides.md}"
   # 하위 경로로 배포하므로 --base 를 폴더 이름으로 준다(안 주면 자원 경로가 깨져 빈 화면)
   npx -y -p @slidev/cli -p @slidev/theme-default slidev build "$deck" --base "/$trip/" --out "$OUT/$trip"
-  title=$(sed -n '2,20{s/^title:[[:space:]]*//p;}' "$deck" | head -1)
-  items="$items<li><a href=\"/$(urlenc "$trip")/\"><b>$(htmlesc "$trip")</b><span>$(htmlesc "${title:-}")</span></a></li>"$'\n'
+
+  # 폴더 이름 "YYMMDD 여행 제목" → 날짜와 제목
+  ymd="${trip%% *}"; name="${trip#* }"
+  if [[ "$ymd" =~ ^[0-9]{6}$ ]]; then date="20${ymd:0:2}.${ymd:2:2}.${ymd:4:2}"; else date=""; name="$trip"; fi
+
+  url="/$(urlenc "$trip")/"
+  img=""
+  cover=$(ls "$trip"/cover.* 2>/dev/null | head -1 || true)
+  if [[ -n "$cover" ]]; then
+    cp "$cover" "$OUT/$trip/"
+    img="<img src=\"${url}$(urlenc "$(basename "$cover")")\" alt=\"\" loading=\"lazy\">"
+  fi
+  card="<a class=\"card\" href=\"$url\" target=\"_blank\">$img<div class=\"meta\"><time>$date</time><h2>$(htmlesc "$name")</h2></div></a>"
+  # 폴더 이름이 날짜로 시작하므로 앞에 붙여 최신 여행이 먼저 오게 한다
+  cards="$card"$'\n'"$cards"
 done
 
 cat > "$OUT/index.html" <<EOF
@@ -25,19 +38,49 @@ cat > "$OUT/index.html" <<EOF
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Travel Log</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css">
 <style>
-  body { font-family: "Pretendard Variable", Pretendard, system-ui, sans-serif; max-width: 720px; margin: 48px auto; padding: 0 20px; color: #222; }
-  h1 { font-size: 28px; }
-  ul { list-style: none; padding: 0; }
-  li a { display: block; padding: 14px 16px; margin-bottom: 10px; border: 1px solid #ddd; border-top: 4px solid #7c5cff; color: inherit; text-decoration: none; }
-  li a:hover { background: #f6f4ff; }
-  li span { display: block; margin-top: 4px; color: #666; font-size: 14px; }
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 40px 20px 60px; background: #f4f2ee; color: #222; font-family: "Pretendard Variable", Pretendard, system-ui, sans-serif; }
+  header { max-width: 1200px; margin: 0 auto 28px; }
+  header h1 { margin: 0; font-size: 32px; letter-spacing: -0.02em; }
+  /* 벽돌 배치: 카드를 열마다 번갈아 넣어(아래 스크립트) 왼쪽→오른쪽 최신순으로 읽히게 한다. 카드 높이는 표지 그림 비율을 따른다 */
+  .grid { max-width: 1200px; margin: 0 auto; display: flex; gap: 16px; align-items: flex-start; }
+  .col { flex: 1; min-width: 0; }
+  .card { position: relative; display: block; margin-bottom: 16px; border-radius: 14px; overflow: hidden; color: #fff; text-decoration: none; background: linear-gradient(135deg, #7c5cff, #ff3d9a); min-height: 180px; box-shadow: 0 2px 8px rgba(0,0,0,.08); transition: transform .2s, box-shadow .2s; }
+  .card:hover { transform: translateY(-4px); box-shadow: 0 10px 24px rgba(0,0,0,.18); }
+  .card img { display: block; width: 100%; height: auto; }
+  .meta { position: absolute; inset: auto 0 0 0; padding: 48px 18px 16px; background: linear-gradient(transparent, rgba(0,0,0,.72)); }
+  .meta time { font-size: 13px; opacity: .85; letter-spacing: .04em; }
+  .meta h2 { margin: 4px 0 0; font-size: 20px; line-height: 1.3; }
 </style>
 </head>
 <body>
-<h1>Travel Log</h1>
-<ul>
-$items</ul>
+<header><h1>Travel Log</h1></header>
+<main class="grid">
+$cards</main>
+<script>
+  var grid = document.querySelector('.grid'), cards = Array.prototype.slice.call(grid.children), cur = 0;
+  function layout() {
+    var n = Math.max(1, Math.min(4, Math.floor((grid.clientWidth + 16) / 276)));
+    if (n === cur) return;
+    cur = n; grid.innerHTML = '';
+    var cols = [];
+    for (var i = 0; i < n; i++) { cols.push(grid.appendChild(document.createElement('div'))); cols[i].className = 'col'; }
+    cards.forEach(function (c, i) { cols[i % n].appendChild(c); });
+  }
+  layout(); addEventListener('resize', layout);
+
+  // 카드를 누르면 슬라이드를 팝업 창으로 연다. 팝업이 막히면 링크의 target=_blank 로 새 탭에서 열린다
+  document.querySelectorAll('.card').forEach(function (a) {
+    a.addEventListener('click', function (e) {
+      var w = Math.min(1280, screen.availWidth), h = Math.min(760, screen.availHeight);
+      var left = (screen.availWidth - w) / 2, top = (screen.availHeight - h) / 2;
+      var win = window.open(a.href, '_blank', 'popup,width=' + w + ',height=' + h + ',left=' + left + ',top=' + top);
+      if (win) e.preventDefault();
+    });
+  });
+</script>
 </body>
 </html>
 EOF
