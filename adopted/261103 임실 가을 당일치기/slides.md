@@ -50,27 +50,7 @@ manuscript: true
 </div>
 <div>
 
-<svg class="map" viewBox="0 0 420 480" style="width:100%;height:440px" role="img" aria-label="임실 당일치기 동선 약도">
-  <rect x="4" y="4" width="412" height="472" rx="22" fill="#f6f1e7" stroke="#e4dccb" stroke-width="2"/>
-  <path d="M8 118 C 90 132, 160 104, 240 122 S 360 112, 412 128" fill="none" stroke="#c9bfa9" stroke-width="2" stroke-dasharray="2 7" stroke-linecap="round"/>
-  <text x="404" y="106" text-anchor="end" class="region">완주군</text>
-  <text x="404" y="150" text-anchor="end" class="region">임실군</text>
-  <path d="M378 30 l8 -16 l8 16 z" fill="#a3977e"/><text x="386" y="46" text-anchor="middle" class="region">N</text>
-  <path d="M134 421 Q 230 400 284 299 Q 300 250 264 199 Q 220 120 162 67" fill="none" stroke="var(--ai)" stroke-width="4" stroke-dasharray="10 8" stroke-linecap="round"/>
-  <path d="M162 67 L 148 24" fill="none" stroke="var(--ai)" stroke-width="4" stroke-dasharray="10 8" stroke-linecap="round"/>
-  <path d="M136 30 L 146 12 L 158 28 z" fill="var(--ai)"/>
-  <text x="128" y="30" text-anchor="end" font-size="15" font-weight="700" fill="var(--ai)">서울 방향</text>
-  <g font-size="15" font-weight="700" fill="#222">
-    <circle cx="134" cy="421" r="19" fill="var(--ai)"/><text x="134" y="427" text-anchor="middle" fill="#fff">1</text>
-    <text x="158" y="416">국립임실호국원</text><text x="158" y="442" class="sub">강진면</text>
-    <circle cx="284" cy="299" r="19" fill="var(--ai)"/><text x="284" y="305" text-anchor="middle" fill="#fff">2</text>
-    <text x="308" y="292">한오백년</text><text x="308" y="318">추어탕</text><text x="308" y="342" class="sub">임실읍</text>
-    <circle cx="264" cy="199" r="19" fill="var(--ai)"/><text x="264" y="205" text-anchor="middle" fill="#fff">3</text>
-    <text x="238" y="196" text-anchor="end">사선대 · 운서정</text><text x="238" y="218" text-anchor="end" class="sub">관촌면</text>
-    <circle cx="162" cy="67" r="19" fill="var(--ai)"/><text x="162" y="73" text-anchor="middle" fill="#fff">4</text>
-    <text x="186" y="64">상관리조트 스파</text><text x="186" y="88" class="sub">완주 상관면</text>
-  </g>
-</svg>
+<img src="./img/imsil/route-map.svg" alt="임실 당일치기 동선 약도: 1 호국원(강진면) → 2 한오백년추어탕(임실읍) → 3 사선대 · 운서정(관촌면) → 4 상관리조트(완주 상관면) → 서울 방향" style="display:block;height:440px;margin:0 auto" />
 
 <p class="muted small">실제 지도가 아닌 약도예요. 점의 위치는 대략적인 방향과 거리만 맞췄어요.</p>
 
@@ -78,9 +58,6 @@ manuscript: true
 </Grid>
 
 <style>
-.map text { font-size: 22px !important; font-weight: 700; line-height: 1; }
-.map text.sub { font-size: 16px !important; font-weight: 400; fill: #777; }
-.map text.region { font-size: 16px !important; font-weight: 400; fill: #a3977e; }
 .route p { margin: 0 0 6px; padding: 5px 12px; border-left: 3px solid var(--py); background: var(--py-soft); border-radius: 6px; font-size: 15px; }
 .route b { color: var(--py); margin-right: 6px; }
 </style>
