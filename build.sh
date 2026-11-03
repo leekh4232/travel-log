@@ -18,6 +18,8 @@ for deck in "$1"/*/slides.md; do
   trip="${deck%/slides.md}"; trip="${trip#*/}"
   # 하위 경로로 배포하므로 --base 를 폴더 이름으로 준다(안 주면 자원 경로가 깨져 빈 화면)
   npx -y -p @slidev/cli -p @slidev/theme-default slidev build "$deck" --base "/$trip/" --out "$OUT/$trip"
+  # slidev 는 lang="en" 으로 내보내 크롬이 번역을 자꾸 묻는다 → 한국어로 표시하고 번역 제안을 끈다
+  sed -i 's|<html lang="en">|<html lang="ko" translate="no">|; s|<meta charset="utf-8">|&\n<meta name="google" content="notranslate">|' "$OUT/$trip/index.html"
 
   # 폴더 이름 "YYMMDD 여행 제목" → 날짜와 제목
   ymd="${trip%% *}"; name="${trip#* }"
@@ -41,9 +43,10 @@ build_group candidates; candidates="$cards"
 
 cat > "$OUT/index.html" <<EOF
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko" translate="no">
 <head>
 <meta charset="utf-8">
+<meta name="google" content="notranslate">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Travel Log</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css">
