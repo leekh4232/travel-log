@@ -1,5 +1,5 @@
 ---
-theme: ../slidev-themes/hossam
+theme: ../../slidev-themes/hossam
 title: 우쭈쭈님 여행 계획서 · 프라이빗 욕조 숙소 추천
 info: 프라이빗 욕조가 있는 숙소 후보 5곳 — 니지모리 스튜디오 료칸 · 서라온 · 유원재 · 척산온천휴양촌 · 호시카게 료칸
 layout: cover

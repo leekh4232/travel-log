@@ -1,5 +1,5 @@
 ---
-theme: ../slidev-themes/hossam
+theme: ../../slidev-themes/hossam
 title: 우쭈쭈님 여행 계획서 · 북촌 한옥 노천스파 1박 2일
 info: 북촌 아날로그 한옥(객실 전용 노천스파)에서 자는 서울 궁궐 역사 기행 — 창덕궁 후원 · 종묘 · 북촌 한옥마을 · 경복궁, 예약 방법까지
 layout: cover

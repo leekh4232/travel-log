@@ -1,5 +1,5 @@
 ---
-theme: ../slidev-themes/hossam
+theme: ../../slidev-themes/hossam
 title: 우쭈쭈님 여행 계획서 · 아산 가을 당일치기
 info: 우쭈쭈님을 위한 아산 당일치기 — 외암민속마을 · 현충사 · 곡교천 은행나무길 · 신천탕
 layout: cover
