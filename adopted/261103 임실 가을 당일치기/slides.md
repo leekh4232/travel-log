@@ -27,22 +27,24 @@ fontScale: 1
 
 ---
 
-## 예상 동선 — 가장 남쪽부터 찍고 서울 쪽으로
+## 출발일과 예상 동선 — 토요일 11/7 추천
 
 <Grid cols="2" gap="24">
 <div>
 
-<Core color="ai">서울에서 내려가는 길에 상관 · 관촌 · 임실읍을 모두 지나쳐요. <span class="hl ok">가장 먼 호국원부터</span> 들르고 올라오면 되돌아가는 길이 없어요.</Core>
+<Grid cols="2" gap="10">
+<Tile kind="soft" color="ok" tag="☀️ 추천 · 토 11/7" title="맑음 · 1~9℃ · 강수 10%">모든 예보에서 비 없음. 아침 1℃라 우쭈쭈님 겉옷 필수</Tile>
+<Tile kind="soft" color="warn" tag="🌤️ 일 11/8" title="맑음 · 2~11℃ · 강수 10%">조금 더 따뜻하지만 오후 이슬비 가능성 일부 있음</Tile>
+</Grid>
 
 <div class="route">
-<p><b>서울 → 1</b> 남쪽 끝 강진면까지 먼저 · 국립임실호국원 참배</p>
+<p><b>서울 → 1</b> 상관 · 관촌 · 임실읍을 지나 남쪽 끝 호국원부터</p>
 <p><b>1 → 2</b> 북동쪽 임실읍 · 직선 약 12km · 추어탕 점심</p>
 <p><b>2 → 3</b> 북쪽 관촌면 · 직선 약 6km · 사선대 산책</p>
-<p><b>3 → 4</b> 북서쪽 완주 상관면 · 직선 약 10km · 스파</p>
-<p><b>4 → 서울</b> 스파 뒤 바로 귀가</p>
+<p><b>3 → 4</b> 북서쪽 완주 상관면 · 직선 약 10km · 스파 후 서울로</p>
 </div>
 
-<p class="muted small">거리는 지점 사이 직선거리예요. 실제 도로는 이보다 길어요.</p>
+<p class="muted small">거리는 직선거리(실제 도로는 더 길어요) · 날씨는 11/3 06시 기상청 중기예보(전북, 기온은 전주) 기준</p>
 
 </div>
 <div>
@@ -78,11 +80,12 @@ fontScale: 1
 .map text { font-size: 22px !important; font-weight: 700; line-height: 1; }
 .map text.sub { font-size: 16px !important; font-weight: 400; fill: #777; }
 .map text.region { font-size: 16px !important; font-weight: 400; fill: #a3977e; }
-.route p { margin: 0 0 10px; padding: 8px 12px; border-left: 3px solid var(--py); background: var(--py-soft); border-radius: 6px; font-size: 16px; }
+.route p { margin: 0 0 6px; padding: 5px 12px; border-left: 3px solid var(--py); background: var(--py-soft); border-radius: 6px; font-size: 15px; }
 .route b { color: var(--py); margin-right: 6px; }
 </style>
 
 <!--
+날씨: 기상청 날씨누리 중기예보 2026-11-03 06:00 발표(전북 토·일 맑음 10%, 전주 토 1/9℃ · 일 2/11℃). Open-Meteo 교차 확인: ECMWF 토 맑음 0% · 일 이슬비 29%(0.2mm), GFS 토·일 흐림 비 없음 → 모든 예보가 비 없음으로 일치하는 토요일 추천.
 약도 좌표: OpenStreetMap Nominatim 조회값(국립임실호국원 35.552,127.189 · 임실군청 35.618,127.289(한오백년 위치 대용) · 사선대 35.672,127.276 · 상관리조트&스파 35.744,127.208)을
 경도 127.10~127.38, 위도 35.52~35.78 범위로 420×480 에 옮김. 직선거리도 같은 좌표로 계산(약 11.6 · 6.1 · 10.1km). 군 경계선은 장식용 점선.
 -->
@@ -139,12 +142,12 @@ class: tight
 
 ::right::
 
-<img src="./img/imsil/chueotang.jpg" alt="뚝배기에 담긴 추어탕" />
+<img src="./img/imsil/chueotang.jpg" alt="한오백년추어탕 임실점의 추어탕 상차림" />
 
-<p class="muted small">추어탕 예시 사진 (한오백년 실제 메뉴 아님)</p>
+<p class="muted small">한오백년 임실점의 추어탕 · 돌솥밥 상차림</p>
 
 <!--
-사진: Wikimedia Commons "Chueo-tang 1.jpg" (chomjong, Flickr, CC BY 2.0)
+사진: 한오백년 추어탕 임실점 공식 홈페이지(hanobaek.homebuilder.co.kr) 갤러리 2번
 출처: 다이닝코드 '한오백년 추어탕'(주소 · 메뉴 가격 · 어리굴젓), 인스타그램 후기(국물 맛), 네이버 블로그 deerhhh(고추튀김 추천).
 천담집: 다이닝코드(다슬기 · 다슬기수제비 맛집, 메뉴 다슬기 수제비 · 다슬기전 · 추어탕), 블로그 seon1982(가마솥 자연산 미꾸라지 추어탕).
 추천 근거: 한오백년은 추어탕 전문점이라 추어탕 메뉴가 다양하고 임실읍에 있어 호국원 → 사선대 사이 동선 위. 천담집은 대표 메뉴가 다슬기.
