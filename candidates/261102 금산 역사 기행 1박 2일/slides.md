@@ -6,6 +6,7 @@ layout: cover
 colorMode: light
 sidebar: true
 fontScale: 1
+manuscript: true
 ---
 
 # 금산 역사 기행 1박 2일

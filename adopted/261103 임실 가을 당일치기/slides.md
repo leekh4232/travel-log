@@ -5,6 +5,7 @@ info: 우쭈쭈님을 위한 임실 당일치기 — 국립임실호국원 · �
 layout: cover
 colorMode: light
 fontScale: 1
+manuscript: true
 ---
 
 # 임실 가을 당일치기

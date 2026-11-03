@@ -5,6 +5,7 @@ info: 우쭈쭈님을 위한 아산 당일치기 — 외암민속마을 · 현�
 layout: cover
 colorMode: light
 fontScale: 1
+manuscript: true
 ---
 
 # 아산 가을 당일치기

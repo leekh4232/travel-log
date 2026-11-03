@@ -6,6 +6,7 @@ layout: cover
 colorMode: light
 sidebar: true
 fontScale: 1
+manuscript: true
 ---
 
 # 북촌 한옥 노천스파 1박 2일

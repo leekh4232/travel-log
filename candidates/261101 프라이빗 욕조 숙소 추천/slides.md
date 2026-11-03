@@ -6,6 +6,7 @@ layout: cover
 colorMode: light
 sidebar: true
 fontScale: 1
+manuscript: true
 ---
 
 # 프라이빗 욕조 숙소 추천
