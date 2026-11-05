@@ -1,5 +1,5 @@
 ---
-theme: ../../slidev-themes/hossam
+theme: ../../slidev-themes/jussam
 title: 우쭈쭈님 여행 계획서 · 임실 가을 당일치기
 info: 우쭈쭈님을 위한 임실 당일치기 — 국립임실호국원 · 한오백년추어탕 · 사선대·운서정 · 상관리조트 스파
 layout: cover

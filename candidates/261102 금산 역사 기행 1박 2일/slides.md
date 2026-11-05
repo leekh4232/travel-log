@@ -1,5 +1,5 @@
 ---
-theme: ../../slidev-themes/hossam
+theme: ../../slidev-themes/jussam
 title: 우쭈쭈님 여행 계획서 · 금산 역사 기행 1박 2일
 info: 하늘물빛정원에서 자는 금산·논산 역사 기행 — 돈암서원 · 관촉사 · 칠백의총 · 보석사 · 진산성지 · 이치대첩지
 layout: cover
