@@ -74,10 +74,6 @@ class: tight
 
 <p class="muted small">초가와 기와집이 섞인 외암마을 풍경</p>
 
-<!--
-사진: Wikimedia Commons "Oeam Folk Village, 2006 (1)" (Flickr, CC BY 2.0)
--->
-
 ---
 layout: magazine
 ---
@@ -103,10 +99,6 @@ layout: magazine
 
 <p class="muted small">외암마을 초가 처마와 가을꽃</p>
 
-<!--
-사진: Wikimedia Commons "Oeam Folk Village, 2006 (3)" (Flickr, CC BY 2.0)
--->
-
 ---
 layout: magazine
 ---
@@ -130,10 +122,6 @@ layout: magazine
 <img src="./img/asan/hyeonchungsa.jpg" alt="현충사 본전" />
 
 <p class="muted small">현충사 본전으로 오르는 계단</p>
-
-<!--
-사진: Wikimedia Commons "현충사(Hyeonchoong-sa) 01" (Joongi Kim, CC BY-SA 2.0)
--->
 
 ---
 layout: magazine
@@ -160,10 +148,6 @@ layout: magazine
 
 <p class="muted small">절정기의 은행나무 터널</p>
 
-<!--
-사진: Wikimedia Commons "Asan Gingko Tree Road" (travel oriented, CC BY-SA 2.0)
--->
-
 ---
 layout: magazine
 ---
@@ -188,10 +172,6 @@ layout: magazine
 
 <p class="muted small">온양온천역 — 신천탕까지 도보 5분</p>
 
-<!--
-사진: Wikimedia Commons "2009-09-25 - Panorama outside Onyang Oncheon Station" (Jpbarrass, Public domain)
--->
-
 ---
 hideInToc: true
 ---
@@ -209,6 +189,3 @@ hideInToc: true
 
 <Core color="ai">우쭈쭈님, 우리 계획도 완벽. 영업시간은 다 체크했어요 ☺️</Core>
 
-<!--
-그림: 토심이 인스타툰(@toshimee) 게시물 DM_6pHAv-5w 의 6컷. 개인용 덱에만 사용.
--->

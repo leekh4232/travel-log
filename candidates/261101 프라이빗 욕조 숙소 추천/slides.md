@@ -26,10 +26,6 @@ manuscript: true
 </Timeline>
 </div>
 
-<!--
-이동 시간: 집(서울 서초구 사임당로19길 88-11)에서 OSRM 경로 계산값. 막힘 없을 때 기준이라 주말·단풍철에는 더 걸린다.
--->
-
 ---
 
 ## 후보 5곳 한눈에
@@ -73,12 +69,6 @@ class: tight
 
 <p class="muted small">니지모리 일본 마을 야경 (료칸 건물이 아니라 마을 전경)</p>
 
-<!--
-가격: 공식 예약 페이지 2026-11-01(일) 기준. 10세 미만 투숙 불가, 반려동물 불가, 석식 없음.
-출처: nijimori.kr/hotel-reservation, nijimori.kr/faq, Agoda 숙소 소개, namu.wiki 니지모리 스튜디오
-사진: Agoda 숙소 사진
--->
-
 ---
 
 ### 01-1 · 실내 사진
@@ -91,10 +81,6 @@ class: tight
 <figure class="m-0"><img src="./img/nijimori/bath-hinoki-2.jpg" class="w-full h-[200px] object-cover" alt="히노끼 욕조 다른 각도" /><figcaption class="muted small mt-1">같은 히노끼 욕조, 다른 각도</figcaption></figure>
 <figure class="m-0"><img src="./img/nijimori/bath-outdoor.jpg" class="w-full h-[200px] object-cover" alt="개인 야외 욕조" /><figcaption class="muted small mt-1">개인 야외 욕조와 자갈 마당</figcaption></figure>
 </Grid>
-
-<!--
-욕조 사진 3장은 Agoda 사진이라 어느 객실 것인지 표시가 없다. 객실 사진 1·3은 공식 사이트, 2는 Agoda.
--->
 
 ---
 class: tight
@@ -126,11 +112,6 @@ class: tight
 </div>
 </Grid>
 
-<!--
-레이트 체크아웃: 객실 정가의 30%, 3시간 고정. 히노끼탕은 레이트아웃 중에도 사용 가능.
-바깥 탕 사전 예약: Agoda 안내. 출처: nijimori.kr/faq, 공식 객실 상세, Agoda
--->
-
 ---
 
 ### 01-3 · 주변 관광지와 먹거리
@@ -160,10 +141,6 @@ class: tight
 </Grid>
 
 <Core>숙소에 <span class="hl warn">저녁 식사가 없어요</span>. 저녁은 마을 안 니지라멘이나 상점가에서 해결해요.</Core>
-
-<!--
-출처: nijimori.kr/facilities, Agoda, diningcode(산들에두부마을·유정부대찌개), 네이버 블로그 후기. 가격은 2024~2025 후기 기준.
--->
 
 ---
 
@@ -219,13 +196,6 @@ class: tight
 
 <p class="muted small">청림 6 객실 데크 정원과 호수</p>
 
-<!--
-가격: 공식 요금표가 동적 표라 못 읽음. 2026-03 블로그 후기(청림 6) 기준. 객실 타입별 차이는 확인 못 함.
-추가 인원 1인 70,000원, 보증금 100,000원(퇴실 후 환불). 환불: 10일 전 100%, 이후 하루마다 10% 공제, 당일 불가.
-출처: seoraon.com, seoraon.com/html/sub5_reser.html, blog.naver.com/yhm4082/224227102368, blog.naver.com/friend427942/224035091142
-사진: 서라온 공식 사이트 갤러리
--->
-
 ---
 
 ### 02-1 · 실내 사진
@@ -238,10 +208,6 @@ class: tight
 <figure class="m-0"><img src="./img/seraon/room-2.jpg" class="w-full h-[200px] object-cover" alt="침실" /><figcaption class="muted small mt-1">침실</figcaption></figure>
 <figure class="m-0"><img src="./img/seraon/room-3.jpg" class="w-full h-[200px] object-cover" alt="이중 세면대 욕실" /><figcaption class="muted small mt-1">이중 세면대 욕실</figcaption></figure>
 </Grid>
-
-<!--
-객실 사진은 청림 6 객실 갤러리. 출처: seoraon.com 공식 갤러리
--->
 
 ---
 class: tight
@@ -273,10 +239,6 @@ class: tight
 </div>
 </Grid>
 
-<!--
-출처: seoraon.com/html/sub3_special2.html, seoraon.com/html/sub5_reser.html, 네이버 블로그 후기 3건(yhm4082, freya1996, friend427942)
--->
-
 ---
 class: tight
 ---
@@ -304,10 +266,6 @@ class: tight
 
 </div>
 </Grid>
-
-<!--
-20시 이후 입실은 사전 연락. 출처: seoraon.com/html/sub5_reser.html, 네이버 예약·인스타그램·블로그 후기(16시 표기)
--->
 
 ---
 
@@ -338,10 +296,6 @@ class: tight
 
 </div>
 </Grid>
-
-<!--
-관광지 시간: seoraon.com/html/sub4_tour.html. 먹거리 가격: 2026-09 블로그(m.blog.naver.com/slowhikecouple/224415962727), diningcode. 산해별미 주소는 확인 못 함.
--->
 
 ---
 
@@ -397,14 +351,6 @@ class: tight
 
 <p class="muted small">수안보 시내와 산을 낀 유원재 전경</p>
 
-<!--
-가격: 2024-11 블로그 요금표(VAT 포함, 2인). 2025-03 후기 요금과 거의 같음. 2026-11 공식 금액은 날짜를 골라야 보여서 확인 못 함.
-객실별: 겸화·청심 트윈 144만/160만, 청심 패밀리·유순 153만/170만, 수정1 184.5만/205만, 수정7 207만/230만 (주중/금·토·휴일 전일).
-추가 인원: 13세 이상 1인 50만원. 반려동물 불가, 전관 금연.
-출처: youonejae.com, youonejae.com/kor/sub/hot_spring.html, now-trend.com 유원재 가격 글, m.blog.naver.com/sinhyunarr/223793081701
-사진: 유원재 공식 사이트
--->
-
 ---
 
 ### 03-1 · 실내 사진
@@ -417,10 +363,6 @@ class: tight
 <figure class="m-0"><img src="./img/yuwonjae/room-2.jpg" class="w-full h-[200px] object-cover" alt="청심 침실" /><figcaption class="muted small mt-1">청심 침실</figcaption></figure>
 <figure class="m-0"><img src="./img/yuwonjae/room-3.jpg" class="w-full h-[200px] object-cover" alt="청심 객실 외관과 정원" /><figcaption class="muted small mt-1">청심 객실과 정원 테라스(저녁)</figcaption></figure>
 </Grid>
-
-<!--
-모두 공식 사이트 청심 타입 페이지 사진.
--->
 
 ---
 class: tight
@@ -451,11 +393,6 @@ class: tight
 
 </div>
 </Grid>
-
-<!--
-공용 노천탕(남녀 시간 구분, 여탕 06:00~10:00 / 15:00~23:00), 대여탕 35,000원/40분(최대 4인, 체크인 후 프런트 예약).
-출처: youonejae.com 객실 페이지(type_a, type_c), hot_spring.html, 공식 예약 페이지, m.blog.naver.com/sinhyunarr/223793081701(후기)
--->
 
 ---
 
@@ -488,10 +425,6 @@ class: tight
 
 </div>
 </Grid>
-
-<!--
-출처: korean.visitkorea.or.kr(미륵대원지, 대장군식당·영화식당), news1, incheonilbo, m.blog.naver.com/red-choco/224416576583(감나무집)
--->
 
 ---
 
@@ -548,14 +481,6 @@ class: tight
 
 <p class="muted small">본관 건물과 야외 온천 풀</p>
 
-<!--
-가족탕(대실): 2인 3시간 50,000 / 4인 70,000 / 1인 추가 15,000. 당일 오전 9시부터 전화 예약만.
-가족실 숙박(1박): 온돌가족실 120,000(기준 3/최대 4) · 더블가족실 150,000(기준 2/최대 3) · 트윈가족실 180,000(기준 3/최대 4). 요일 무관.
-취소: 주중 5일 전, 주말·성수기 7일 전 전액 환불.
-출처: choksan.co.kr/default/reserve/cost_info.php, kr.trip.com/blog/cheoksan-hot-spring-resort-guide/, padmapadme.tistory.com/756
-사진: 척산온천휴양촌 공식 사이트
--->
-
 ---
 
 ### 04-1 · 실내 사진
@@ -568,10 +493,6 @@ class: tight
 <figure class="m-0"><img src="./img/cheoksan/room-2.jpg" class="w-full h-[200px] object-cover" alt="온돌 가족실" /><figcaption class="muted small mt-1">온돌 가족실과 욕실 유리문</figcaption></figure>
 <figure class="m-0"><img src="./img/cheoksan/room-3.jpg" class="w-full h-[200px] object-cover" alt="세면대와 냉장고" /><figcaption class="muted small mt-1">세면대 · 냉장고 · 포트</figcaption></figure>
 </Grid>
-
-<!--
-공식 사이트 온돌·트윈 가족실 페이지 사진. 3시간 대실용 가족온천실(5층)과 같은 방인지는 공식 설명이 없어 확인 못 함.
--->
 
 ---
 class: tight
@@ -601,12 +522,6 @@ class: tight
 </div>
 </Grid>
 
-<!--
-수질: 공식 성분표는 못 찾음. 블로그 인용값 pH 8.5 중탄산나트륨, 수온 37.6~47.9℃(2019 행안부 자료). 홍보값 약 53℃.
-후기: 침대 객실은 침대가 불편, 숙박이면 온돌 추천(2020 후기).
-출처: choksan.co.kr 요금 안내, padmapadme.tistory.com/756
--->
-
 ---
 class: tight
 ---
@@ -634,10 +549,6 @@ class: tight
 
 </div>
 </Grid>
-
-<!--
-전화 033-636-4000. 20시 이후 도착은 사전 연락. 출처: choksan.co.kr/default/reserve/cost_info.php
--->
 
 ---
 
@@ -669,10 +580,6 @@ class: tight
 
 </div>
 </Grid>
-
-<!--
-출처: korean.visitkorea.or.kr, kr.trip.com 척산 가이드, diningcode(속초곰치국), 네이버 블로그(예공간), tripadvisor(인근 식당 거리)
--->
 
 ---
 
@@ -729,14 +636,6 @@ class: tight
 
 <p class="muted small">조명이 켜진 호시카게 외관</p>
 
-<!--
-가격: 야놀자 2026-11-01(일)~02(월) 1박 2인, 취소·환불 불가 상품. 소라노 하나 360,000(조식)/480,000(조식+석식), 나미노 쇼타이 460,000/580,000. 주말 요금표는 확인 못 함(후기: 주말은 더 비쌈).
-추가 인원 1인 50,000(식사 미포함), 석식 추가 80,000, 조식 추가 40,000.
-'5m 편백탕'은 업체 소개 문구라 검증 못 함.
-출처: hoshikage.co.kr, nol.yanolja.com/stay/domestic/10046864, blog.naver.com/jinique_/223375023382
-사진: 호시카게 공식 사이트
--->
-
 ---
 
 ### 05-1 · 실내 사진
@@ -749,10 +648,6 @@ class: tight
 <figure class="m-0"><img src="./img/hoshikage/room-bed.jpg" class="w-full h-[200px] object-cover" alt="다다미 트윈 침실" /><figcaption class="muted small mt-1">다다미 트윈베드 침실</figcaption></figure>
 <figure class="m-0"><img src="./img/hoshikage/room-bath-view.jpg" class="w-full h-[200px] object-cover" alt="거실에서 본 욕조와 침실" /><figcaption class="muted small mt-1">거실에서 본 히노끼탕과 침실</figcaption></figure>
 </Grid>
-
-<!--
-모두 공식 사이트(hoshikage.co.kr) 객실 사진. 소라노 계열과 모리노 카게 객실.
--->
 
 ---
 class: tight
@@ -784,12 +679,6 @@ class: tight
 </div>
 </Grid>
 
-<!--
-야놀자에 '미성년자 예약 불가'와 소아 요금이 함께 적혀 있어 서로 모순. 가족 동반이면 전화 확인.
-창 방충망을 열어 두고 바깥 공기를 맞으며 입욕할 수 있다는 후기(야놀자 2026.01.15).
-출처: hoshikage.co.kr, 야놀자, 여기어때
--->
-
 ---
 
 ### 05-3 · 주변 관광지와 먹거리
@@ -820,10 +709,6 @@ class: tight
 
 </div>
 </Grid>
-
-<!--
-출처: siksinhot.com/theme/magazine/17303, app.catchtable.co.kr/ct/shop/namhanghoesjib, 네이버 블로그·인스타그램 후기
--->
 
 ---
 

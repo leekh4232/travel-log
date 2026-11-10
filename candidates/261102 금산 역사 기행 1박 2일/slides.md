@@ -28,11 +28,6 @@ manuscript: true
 </Timeline>
 </div>
 
-<!--
-이동 시간: 집(서울 서초구 사임당로19길 88-11)에서 OSRM 경로 계산값. 막힘 없을 때 기준이라 주말 경부선 정체 시에는 더 걸린다.
-숙소 좌표: 한국관광공사 열린관광 페이지의 지도 좌표(36.2229, 127.4831).
--->
-
 ---
 
 ## 코스 한눈에 — 토요일은 논산 → 금산, 일요일은 진산
@@ -61,10 +56,6 @@ manuscript: true
 </Timeline>
 
 <Core>여섯 곳 모두 <span class="hl ok">입장 무료</span>(관촉사만 현장 확인). 일요일은 <span class="hl warn">14시 전 출발</span>해야 상행 정체를 피해요.</Core>
-
-<!--
-이동 시간은 OSRM 계산값(막힘 없을 때). 1일차 총 273km, 2일차 209km.
--->
 
 ---
 layout: magazine
@@ -96,11 +87,6 @@ class: tight
 
 <p class="muted small">돈암서원 응도당</p>
 
-<!--
-출처: 충남관광(tour.chungnam.go.kr trsrcnNo=38) 이용시간·입장료·주소, 유네스코 등재 2019-07-06.
-사진: Wikimedia Commons "Eungdo Dang of Donam Seowon" (Ryuch, CC BY-SA 3.0)
--->
-
 ---
 layout: magazine
 class: tight
@@ -130,12 +116,6 @@ class: tight
 
 <p class="muted small">관촉사 석조미륵보살입상(은진미륵)</p>
 
-<!--
-출처: 충남관광(trsrcnNo=34) 이용시간 06:00-20:00, 입장료 성인 1,500원 표기. 네이버 블로그 후기(2024-11, sinmunman)는 무료라 적음 → 현장 확인으로 처리.
-공사: 충남관광 리뷰(2026-09-22) "보존처리 공사 중(2026년 9월 중순까지)".
-사진: Wikimedia Commons "관촉사 석조미륵보살입상" (Kwkhh, CC BY-SA 4.0)
--->
-
 ---
 layout: magazine
 class: tight
@@ -163,13 +143,6 @@ class: tight
 <img src="./img/geumsan/chilbaek.jpg" alt="금산 칠백의총" />
 
 <p class="muted small">칠백의총 의총 앞 전경</p>
-
-<!--
-출처: 충남관광(trsrcnNo=28) 주소·연중무휴·주차. 동절기 09:00~17:00은 금산군 홍보관·블로그 2건 표기. 공식 사이트(700.khs.go.kr)는 본문이 스크립트라 못 읽음.
-칠백의총 휴관: 충남관광 "연중무휴", 2026-03 리뷰 "월요일 휴관" → 토요일 방문이라 영향 없음.
-신흥어죽: 다이닝코드(영업시간 08:00-18:00, 인삼어죽 8,000원은 2022년 후기 가격). 농민신문 2016.
-사진: Wikimedia Commons "칠백의총.jpg" (국가유산청, KOGL 제1유형)
--->
 
 ---
 layout: magazine
@@ -200,11 +173,6 @@ class: tight
 
 <p class="muted small">보석사 은행나무 (천연기념물)</p>
 
-<!--
-출처: 금산군청 관광명소(주소·천연기념물 365호), 충청남도 기사 MD0003334599(1839년 영규대사 추모), 위키백과(좌표). 단풍 상태: 금산군청 인스타그램 릴스(제31회 행사 당일 "아직 들지 않았다").
-사진: Wikimedia Commons "금산 보석사 은행나무.jpg" (국가유산청, CC BY-SA 4.0)
--->
-
 ---
 layout: magazine
 class: tight
@@ -230,12 +198,6 @@ class: tight
 
 <p class="muted small">장산저수지와 하늘물빛정원 전경</p>
 
-<!--
-출처: 공식 '스테이 이용 안내' PDF(2025-10 업로드): 입실 16시 · 퇴실 12시 · 요금표 · 찜질방/수영장 무료. 11~12월 프로모션 · 얼리체크인은 공식 사이트 새소식 이미지. 내비 안내는 gardenofsky.com/about.
-예약: 공식 실시간 예약 gardenofsky1.netfuhosting.kr/n_time, 예약 문의 010-3576-2613, 대표 1588-2613.
-사진: 하늘물빛정원 공식 사이트 갤러리
--->
-
 ---
 
 ### 🏡-1 · 객실과 시설 사진
@@ -248,10 +210,6 @@ class: tight
 <figure class="m-0"><img src="./img/geumsan/gos-cafe.jpg" class="w-full h-[200px] object-cover" alt="식물원 베이커리카페" /><figcaption class="muted small mt-1">식물원 베이커리카페 · 주말 10:00~21:00</figcaption></figure>
 <figure class="m-0"><img src="./img/geumsan/gos-sotbap.jpg" class="w-full h-[200px] object-cover" alt="하물정 솥밥" /><figcaption class="muted small mt-1">하물정 솥밥 · 주말 10:00~21:00</figcaption></figure>
 </Grid>
-
-<!--
-사진: 하늘물빛정원 공식 사이트 갤러리(레이크스테이 · 가든스테이 · 찜질방 · 식물원카페 · 하물정 탭)
--->
 
 ---
 class: tight
@@ -283,10 +241,6 @@ class: tight
 </div>
 </Grid>
 
-<!--
-출처: 공식 '스테이 이용 안내' PDF(BBQ · 요리 제한 · 소음 안내), 공식 사이트 갤러리(하물정 · 더밀 운영시간), 11~12월 프로모션 이미지(조식 세트). 솥밥 후기: 카카오맵 리뷰 2026-04, 다이닝코드 리뷰(가격 15,000 · 20,000).
--->
-
 ---
 layout: magazine
 class: tight
@@ -316,11 +270,6 @@ class: tight
 
 <Tile kind="fill" color="pastel-4" tag="1927 · 성당" title="박해지에 세운 교우촌 성당" class="mt-3">진산 교우촌에 세운 성당이 지금의 진산성지성당. 국가등록문화유산으로 지정돼 있어요.</Tile>
 
-<!--
-출처: 국가유산청 국가등록문화유산 '천주교 진산성지성당' 해설, 가톨릭신문 2023-05-30(세 복자 유해 안치), 충청남도 기사 MD0003193402(역사문화관 09:30–17:30), 굿뉴스 가톨릭정보(주소 실학로 207).
-사진: 커먼즈에 진산성지 사진이 없어 글 카드로 대체.
--->
-
 ---
 layout: magazine
 class: tight
@@ -349,11 +298,6 @@ class: tight
 
 <p class="muted small">배티재 정상 완주 쪽 관문. 금산 쪽 내리막에 충장사와 대첩비가 있어요</p>
 
-<!--
-출처: 금산군청 문화관광 '이치대첩지'(주소 · 전투 설명 · 문화재 정보), 충청남도 기사 MD0003340464(입장료 무료 · 주차 있음).
-사진: Wikimedia Commons "Baetijae from Geumsan to Wanju" (&bahn, CC BY-SA 4.0)
--->
-
 ---
 layout: magazine
 class: tight
@@ -381,10 +325,6 @@ class: tight
 <Tile kind="fill" color="pastel-1" tag="🗺️ 비 오거나 시간이 남으면" title="옥천 정지용 생가 · 육영수 생가">숙소에서 동쪽으로 30분. 09:00~17:00(월요일 휴무) · 무료 · 정지용문학관 함께</Tile>
 
 <Tile kind="fill" color="pastel-3" tag="🏛️ 하나 더" title="금산인삼관 · 인삼약령시장" class="mt-3">금산읍, 칠백의총에서 5분. 1,500년 인삼 역사와 장터 구경</Tile>
-
-<!--
-출처: 다이닝코드 골목추어탕(주말 10:00-20:00 · 메뉴 가격), 디트뉴스24(주차 100대 · 연중무휴), 블로그 후기 2건(평일 15시 마감 · 주말 19시 마감 표기도 있음 → 늦지 않게). 옥천 생가: 열린관광(육영수 생가 09:00~17:30 · 월요일 휴무), 블로그(정지용 생가 09~17시).
--->
 
 ---
 hideInToc: true
@@ -415,6 +355,3 @@ hideInToc: true
 
 <Core color="ai">우쭈쭈님, 토요일은 서원과 미륵, 일요일은 순교지와 전적지. 임진왜란의 패배(칠백의총)와 승리(이치대첩)를 하루 간격으로 보는 코스예요.</Core>
 
-<!--
-가격 · 영업시간은 2026-11-02 조사 기준. 날씨는 11월 초 금산 평년값 기준의 어림이라 출발 전 예보 확인.
--->
