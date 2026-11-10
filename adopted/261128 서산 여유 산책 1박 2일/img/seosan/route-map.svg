@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="서산 1박 2일 동선 약도: 서초 집에서 경부·평택제천·서해안고속도로로 해미IC, 해미읍성, 개심사, 동부시장, 서라온, 다음 날 진국집을 거쳐 서산IC에서 서해안고속도로·강남순환로로 귀가">
+  <style>
+    text { font-family: "Pretendard Variable", Pretendard, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; font-size: 19px; font-weight: 700; fill: #222; }
+    text.sub { font-size: 14px; font-weight: 400; fill: #777; }
+    text.region { font-size: 14px; font-weight: 400; fill: #a3977e; }
+    text.sea { font-size: 15px; font-weight: 400; fill: #7aa3c4; letter-spacing: .3em; }
+    text.title { font-size: 15px; font-weight: 700; fill: #8a7d63; }
+    text.w { fill: #fff; font-size: 17px; }
+  </style>
+
+  <!-- 왼쪽: 전체 경로 -->
+  <rect x="6" y="6" width="452" height="528" rx="20" fill="#f6f1e7" stroke="#e4dccb" stroke-width="2"/>
+  <path d="M6 26 Q6 6 26 6 L173 6 C 190 120, 222 190, 262 300 C 300 315, 340 330, 352 344 C 330 350, 230 345, 196 344 C 150 340, 100 342, 84 345 C 70 380, 60 420, 62 440 C 70 470, 80 500, 84 534 L26 534 Q6 534 6 514 Z" fill="#dfeaf2"/>
+  <text x="40" y="200" class="sea">서해</text>
+  <text x="300" y="372" class="region">아산만</text>
+  <text x="22" y="30" class="title">가는 길 약 165km · 오는 길 약 125km</text>
+  <path d="M378 28 l8 -16 l8 16 z" fill="#a3977e"/><text x="386" y="44" text-anchor="middle" class="region">N</text>
+
+  <!-- 1일차 가는 길 -->
+  <path d="M372 128 C 392 160, 404 190, 408 220 C 412 250, 414 270, 414 292 C 390 300, 340 304, 306 312 C 292 320, 282 330, 276 339 C 250 352, 210 362, 182 372 C 170 395, 162 420, 157 442" fill="none" stroke="#d9611f" stroke-width="5" stroke-dasharray="11 8" stroke-linecap="round"/>
+  <!-- 2일차 오는 길 -->
+  <path d="M161 403 C 175 390, 185 380, 196 368 C 230 352, 262 345, 288 336 C 292 290, 296 220, 300 170 C 304 140, 320 124, 350 116" fill="none" stroke="#2f6fb5" stroke-width="4" stroke-dasharray="3 7" stroke-linecap="round"/>
+
+  <circle cx="366" cy="112" r="17" fill="#222"/><text x="366" y="118" text-anchor="middle" class="w">집</text>
+  <text x="352" y="80" text-anchor="middle">서초 집</text>
+  <text x="290" y="235" text-anchor="end" class="region">서해안고속도로</text><text x="392" y="250" text-anchor="end" class="region">경부고속도로</text><text x="366" y="288" text-anchor="middle" class="region">평택제천고속도로</text><text x="300" y="150" text-anchor="end" class="region">강남순환로</text>
+  <rect x="262" y="330" width="28" height="8" rx="2" fill="#a3977e"/><text x="246" y="324" text-anchor="end" class="sub">서해대교</text>
+  <text x="200" y="400" class="sub">당진</text>
+
+  <!-- 확대 영역 -->
+  <rect x="120" y="390" width="70" height="62" rx="8" fill="none" stroke="#8a7d63" stroke-width="2" stroke-dasharray="4 4"/>
+  <text x="155" y="478" text-anchor="middle">서산</text>
+  <path d="M190 400 L 470 70 M190 452 L 470 520" stroke="#cfc4ad" stroke-width="1.5" stroke-dasharray="3 5"/>
+
+  <!-- 오른쪽: 서산 확대 -->
+  <rect x="470" y="6" width="484" height="528" rx="20" fill="#f6f1e7" stroke="#e4dccb" stroke-width="2"/>
+  <text x="488" y="30" class="title">서산 확대 · 모두 차로 10~25분</text>
+  <!-- 숙소 옆 호수 -->
+  <path d="M742 132 C 770 118, 806 126, 812 146 C 818 168, 790 180, 766 172 C 748 166, 730 148, 742 132 Z" fill="#dfeaf2"/>
+  <text x="790" y="152" text-anchor="middle" class="sub">호수</text>
+  <!-- 서산 시내 -->
+  <ellipse cx="572" cy="200" rx="62" ry="46" fill="#efe6d4"/>
+  <text x="572" y="262" text-anchor="middle" class="region">서산 시내</text>
+  <!-- 고속도로 -->
+  <path d="M832 50 L 836 120 L 824 260 L 812 420 L 808 470" fill="none" stroke="#c9bfa9" stroke-width="8" stroke-linecap="round"/>
+  <text x="868" y="200" class="region">서해안</text><text x="868" y="218" class="region">고속도로</text>
+  <rect x="818" y="100" width="26" height="16" rx="3" fill="#8a7d63"/><text x="862" y="113" class="sub">서산IC</text>
+  <rect x="799" y="424" width="26" height="16" rx="3" fill="#8a7d63"/><text x="842" y="437" class="sub">해미IC</text>
+
+  <!-- 1일차 -->
+  <path d="M850 60 L 848 120 L 836 260 L 826 420 C 810 436, 792 440, 778 442 C 820 410, 860 360, 873 317 C 800 260, 640 230, 557 188 C 620 170, 680 168, 729 170" fill="none" stroke="#d9611f" stroke-width="5" stroke-dasharray="11 8" stroke-linecap="round"/>
+  <!-- 2일차 -->
+  <path d="M729 170 C 670 186, 620 200, 580 210 C 660 170, 760 130, 831 108 L 836 40" fill="none" stroke="#2f6fb5" stroke-width="4" stroke-dasharray="3 7" stroke-linecap="round"/>
+  <path d="M826 44 L 836 24 L 846 44 z" fill="#2f6fb5"/>
+  <text x="858" y="44" class="sub">서울 방향</text>
+
+  <g>
+    <circle cx="778" cy="442" r="18" fill="#d9611f"/><text x="778" y="448" text-anchor="middle" class="w">1</text>
+    <text x="756" y="440" text-anchor="end">해미읍성</text><text x="756" y="460" text-anchor="end" class="sub">읍성뚝배기 점심</text>
+    <circle cx="873" cy="317" r="18" fill="#d9611f"/><text x="873" y="323" text-anchor="middle" class="w">2</text>
+    <text x="912" y="352" text-anchor="middle">개심사</text>
+    <circle cx="557" cy="188" r="18" fill="#d9611f"/><text x="557" y="194" text-anchor="middle" class="w">3</text>
+    <text x="536" y="160" text-anchor="middle">동부시장</text><text x="520" y="140" text-anchor="middle" class="sub">야식 장보기</text>
+    <circle cx="729" cy="170" r="21" fill="#222"/><text x="729" y="177" text-anchor="middle" class="w">🏡</text>
+    <text x="700" y="122" text-anchor="middle">서라온</text><text x="700" y="102" text-anchor="middle" class="sub">음암면 · 1박</text>
+    <circle cx="580" cy="210" r="16" fill="#2f6fb5"/><text x="580" y="216" text-anchor="middle" class="w">4</text>
+    <text x="600" y="232">진국집</text><text x="600" y="250" class="sub">2일차 점심</text>
+  </g>
+
+  <!-- 범례 -->
+  <g transform="translate(488 520)">
+    <path d="M0 0 H 34" stroke="#d9611f" stroke-width="5" stroke-dasharray="11 8"/><text x="42" y="6" class="sub">11/28 토 · 가는 길</text>
+    <path d="M180 0 H 214" stroke="#2f6fb5" stroke-width="4" stroke-dasharray="3 7" stroke-linecap="round"/><text x="222" y="6" class="sub">11/29 일 · 오는 길</text>
+  </g>
+</svg>
