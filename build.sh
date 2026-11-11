@@ -18,6 +18,8 @@ for deck in "$1"/*/slides.md; do
   trip="${deck%/slides.md}"; trip="${trip#*/}"
   # 하위 경로로 배포하므로 --base 를 폴더 이름으로 준다(안 주면 자원 경로가 깨져 빈 화면)
   npx -y -p @slidev/cli -p @slidev/theme-default slidev build "$deck" --base "/$trip/" --out "$OUT/$trip"
+  # --base 를 주면 slidev 가 ./img/... 를 assets 로 묶지 않고 경로 그대로 둔다 → img 폴더를 그대로 복사해 둔다
+  cp -r "$(dirname "$deck")/img" "$OUT/$trip/"
   # slidev 는 lang="en" 으로 내보내 크롬이 번역을 자꾸 묻는다 → 한국어로 표시하고 번역 제안을 끈다
   sed -i 's|<html lang="en">|<html lang="ko" translate="no">|; s|<meta charset="utf-8">|&\n<meta name="google" content="notranslate">|' "$OUT/$trip/index.html"
 
