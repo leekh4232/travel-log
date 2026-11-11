@@ -65,7 +65,7 @@ class: tight
 
 ::right::
 
-<img src="./img/nijimori/exterior.jpg" alt="니지모리 일본 마을 야경" />
+<img src="./img/nijimori-exterior.jpg" alt="니지모리 일본 마을 야경" />
 
 <p class="muted small">니지모리 일본 마을 야경 (료칸 건물이 아니라 마을 전경)</p>
 
@@ -74,12 +74,12 @@ class: tight
 ### 01-1 · 실내 사진
 
 <Grid cols="3" gap="12">
-<figure class="m-0"><img src="./img/nijimori/room-1.jpg" class="w-full h-[200px] object-cover" alt="1동 101호 다다미방" /><figcaption class="muted small mt-1">1동 101호 '영화의 방' 다다미방</figcaption></figure>
-<figure class="m-0"><img src="./img/nijimori/room-3.jpg" class="w-full h-[200px] object-cover" alt="3동 101호 침구와 창가" /><figcaption class="muted small mt-1">3동 101호 '사무라이와 여인의 방'</figcaption></figure>
-<figure class="m-0"><img src="./img/nijimori/room-2.jpg" class="w-full h-[200px] object-cover" alt="복층 다다미 공간" /><figcaption class="muted small mt-1">복층(다락) 다다미 공간</figcaption></figure>
-<figure class="m-0"><img src="./img/nijimori/bath-hinoki-1.jpg" class="w-full h-[200px] object-cover" alt="히노끼 실내 욕조" /><figcaption class="muted small mt-1">히노끼 실내 욕조</figcaption></figure>
-<figure class="m-0"><img src="./img/nijimori/bath-hinoki-2.jpg" class="w-full h-[200px] object-cover" alt="히노끼 욕조 다른 각도" /><figcaption class="muted small mt-1">같은 히노끼 욕조, 다른 각도</figcaption></figure>
-<figure class="m-0"><img src="./img/nijimori/bath-outdoor.jpg" class="w-full h-[200px] object-cover" alt="개인 야외 욕조" /><figcaption class="muted small mt-1">개인 야외 욕조와 자갈 마당</figcaption></figure>
+<figure class="m-0"><img src="./img/nijimori-room-1.jpg" class="w-full h-[200px] object-cover" alt="1동 101호 다다미방" /><figcaption class="muted small mt-1">1동 101호 '영화의 방' 다다미방</figcaption></figure>
+<figure class="m-0"><img src="./img/nijimori-room-3.jpg" class="w-full h-[200px] object-cover" alt="3동 101호 침구와 창가" /><figcaption class="muted small mt-1">3동 101호 '사무라이와 여인의 방'</figcaption></figure>
+<figure class="m-0"><img src="./img/nijimori-room-2.jpg" class="w-full h-[200px] object-cover" alt="복층 다다미 공간" /><figcaption class="muted small mt-1">복층(다락) 다다미 공간</figcaption></figure>
+<figure class="m-0"><img src="./img/nijimori-bath-hinoki-1.jpg" class="w-full h-[200px] object-cover" alt="히노끼 실내 욕조" /><figcaption class="muted small mt-1">히노끼 실내 욕조</figcaption></figure>
+<figure class="m-0"><img src="./img/nijimori-bath-hinoki-2.jpg" class="w-full h-[200px] object-cover" alt="히노끼 욕조 다른 각도" /><figcaption class="muted small mt-1">같은 히노끼 욕조, 다른 각도</figcaption></figure>
+<figure class="m-0"><img src="./img/nijimori-bath-outdoor.jpg" class="w-full h-[200px] object-cover" alt="개인 야외 욕조" /><figcaption class="muted small mt-1">개인 야외 욕조와 자갈 마당</figcaption></figure>
 </Grid>
 
 ---
@@ -105,7 +105,7 @@ class: tight
 </div>
 <div>
 
-<img class="w-full h-[400px] object-cover" src="./img/nijimori/bath-outdoor.jpg" alt="개인 야외 욕조" />
+<img class="w-full h-[400px] object-cover" src="./img/nijimori-bath-outdoor.jpg" alt="개인 야외 욕조" />
 
 <p class="muted small">객실 전용 바깥 욕조</p>
 
@@ -192,7 +192,7 @@ class: tight
 
 ::right::
 
-<img src="./img/seraon/exterior.jpg" alt="서라온 객실 외관과 호수" />
+<img src="./img/seraon-exterior.jpg" alt="서라온 객실 외관과 호수" />
 
 <p class="muted small">청림 6 객실 데크 정원과 호수</p>
 
@@ -201,12 +201,12 @@ class: tight
 ### 02-1 · 실내 사진
 
 <Grid cols="3" gap="12">
-<figure class="m-0"><img src="./img/seraon/bath-1.jpg" class="w-full h-[200px] object-cover" alt="호수 전망 자쿠지" /><figcaption class="muted small mt-1">호수 전망 대형 실내 자쿠지</figcaption></figure>
-<figure class="m-0"><img src="./img/seraon/bath-2.jpg" class="w-full h-[200px] object-cover" alt="미닫이 너머 자쿠지" /><figcaption class="muted small mt-1">미닫이 너머 자쿠지와 정원 창</figcaption></figure>
-<figure class="m-0"><img src="./img/seraon/bath-3.jpg" class="w-full h-[200px] object-cover" alt="목재 격자 천장 자쿠지" /><figcaption class="muted small mt-1">목재 격자 천장 아래 자쿠지</figcaption></figure>
-<figure class="m-0"><img src="./img/seraon/room-1.jpg" class="w-full h-[200px] object-cover" alt="침실과 다도 공간" /><figcaption class="muted small mt-1">침실과 다도 공간</figcaption></figure>
-<figure class="m-0"><img src="./img/seraon/room-2.jpg" class="w-full h-[200px] object-cover" alt="침실" /><figcaption class="muted small mt-1">침실</figcaption></figure>
-<figure class="m-0"><img src="./img/seraon/room-3.jpg" class="w-full h-[200px] object-cover" alt="이중 세면대 욕실" /><figcaption class="muted small mt-1">이중 세면대 욕실</figcaption></figure>
+<figure class="m-0"><img src="./img/seraon-bath-1.jpg" class="w-full h-[200px] object-cover" alt="호수 전망 자쿠지" /><figcaption class="muted small mt-1">호수 전망 대형 실내 자쿠지</figcaption></figure>
+<figure class="m-0"><img src="./img/seraon-bath-2.jpg" class="w-full h-[200px] object-cover" alt="미닫이 너머 자쿠지" /><figcaption class="muted small mt-1">미닫이 너머 자쿠지와 정원 창</figcaption></figure>
+<figure class="m-0"><img src="./img/seraon-bath-3.jpg" class="w-full h-[200px] object-cover" alt="목재 격자 천장 자쿠지" /><figcaption class="muted small mt-1">목재 격자 천장 아래 자쿠지</figcaption></figure>
+<figure class="m-0"><img src="./img/seraon-room-1.jpg" class="w-full h-[200px] object-cover" alt="침실과 다도 공간" /><figcaption class="muted small mt-1">침실과 다도 공간</figcaption></figure>
+<figure class="m-0"><img src="./img/seraon-room-2.jpg" class="w-full h-[200px] object-cover" alt="침실" /><figcaption class="muted small mt-1">침실</figcaption></figure>
+<figure class="m-0"><img src="./img/seraon-room-3.jpg" class="w-full h-[200px] object-cover" alt="이중 세면대 욕실" /><figcaption class="muted small mt-1">이중 세면대 욕실</figcaption></figure>
 </Grid>
 
 ---
@@ -232,7 +232,7 @@ class: tight
 </div>
 <div>
 
-<img class="w-full h-[400px] object-cover" src="./img/seraon/bath-1.jpg" alt="호수 전망 자쿠지" />
+<img class="w-full h-[400px] object-cover" src="./img/seraon-bath-1.jpg" alt="호수 전망 자쿠지" />
 
 <p class="muted small">통창 너머 호수가 보이는 자쿠지</p>
 
@@ -260,7 +260,7 @@ class: tight
 </div>
 <div>
 
-<img class="w-full h-[400px] object-cover" src="./img/seraon/bath-2.jpg" alt="미닫이 너머 자쿠지" />
+<img class="w-full h-[400px] object-cover" src="./img/seraon-bath-2.jpg" alt="미닫이 너머 자쿠지" />
 
 <p class="muted small">미닫이 너머 자쿠지와 정원 창</p>
 
@@ -347,7 +347,7 @@ class: tight
 
 ::right::
 
-<img src="./img/yuwonjae/exterior.jpg" alt="유원재 전경" />
+<img src="./img/yuwonjae-exterior.jpg" alt="유원재 전경" />
 
 <p class="muted small">수안보 시내와 산을 낀 유원재 전경</p>
 
@@ -356,12 +356,12 @@ class: tight
 ### 03-1 · 실내 사진
 
 <Grid cols="3" gap="12">
-<figure class="m-0"><img src="./img/yuwonjae/bath-1.jpg" class="w-full h-[200px] object-cover" alt="도자기 노천탕" /><figcaption class="muted small mt-1">객실 노천탕 도자기 욕조</figcaption></figure>
-<figure class="m-0"><img src="./img/yuwonjae/bath-2.jpg" class="w-full h-[200px] object-cover" alt="히노끼 욕조" /><figcaption class="muted small mt-1">히노끼 욕조 (청심 패밀리)</figcaption></figure>
-<figure class="m-0"><img src="./img/yuwonjae/bath-3.jpg" class="w-full h-[200px] object-cover" alt="파우더룸" /><figcaption class="muted small mt-1">파우더룸 세면대</figcaption></figure>
-<figure class="m-0"><img src="./img/yuwonjae/room-1.jpg" class="w-full h-[200px] object-cover" alt="청심 객실 거실" /><figcaption class="muted small mt-1">청심 객실 거실</figcaption></figure>
-<figure class="m-0"><img src="./img/yuwonjae/room-2.jpg" class="w-full h-[200px] object-cover" alt="청심 침실" /><figcaption class="muted small mt-1">청심 침실</figcaption></figure>
-<figure class="m-0"><img src="./img/yuwonjae/room-3.jpg" class="w-full h-[200px] object-cover" alt="청심 객실 외관과 정원" /><figcaption class="muted small mt-1">청심 객실과 정원 테라스(저녁)</figcaption></figure>
+<figure class="m-0"><img src="./img/yuwonjae-bath-1.jpg" class="w-full h-[200px] object-cover" alt="도자기 노천탕" /><figcaption class="muted small mt-1">객실 노천탕 도자기 욕조</figcaption></figure>
+<figure class="m-0"><img src="./img/yuwonjae-bath-2.jpg" class="w-full h-[200px] object-cover" alt="히노끼 욕조" /><figcaption class="muted small mt-1">히노끼 욕조 (청심 패밀리)</figcaption></figure>
+<figure class="m-0"><img src="./img/yuwonjae-bath-3.jpg" class="w-full h-[200px] object-cover" alt="파우더룸" /><figcaption class="muted small mt-1">파우더룸 세면대</figcaption></figure>
+<figure class="m-0"><img src="./img/yuwonjae-room-1.jpg" class="w-full h-[200px] object-cover" alt="청심 객실 거실" /><figcaption class="muted small mt-1">청심 객실 거실</figcaption></figure>
+<figure class="m-0"><img src="./img/yuwonjae-room-2.jpg" class="w-full h-[200px] object-cover" alt="청심 침실" /><figcaption class="muted small mt-1">청심 침실</figcaption></figure>
+<figure class="m-0"><img src="./img/yuwonjae-room-3.jpg" class="w-full h-[200px] object-cover" alt="청심 객실 외관과 정원" /><figcaption class="muted small mt-1">청심 객실과 정원 테라스(저녁)</figcaption></figure>
 </Grid>
 
 ---
@@ -387,7 +387,7 @@ class: tight
 </div>
 <div>
 
-<img class="w-full h-[400px] object-cover" src="./img/yuwonjae/bath-1.jpg" alt="도자기 노천탕" />
+<img class="w-full h-[400px] object-cover" src="./img/yuwonjae-bath-1.jpg" alt="도자기 노천탕" />
 
 <p class="muted small">객실 전용 도자기 노천탕</p>
 
@@ -477,7 +477,7 @@ class: tight
 
 ::right::
 
-<img src="./img/cheoksan/exterior.jpg" alt="척산온천휴양촌 본관과 야외 온천" />
+<img src="./img/cheoksan-exterior.jpg" alt="척산온천휴양촌 본관과 야외 온천" />
 
 <p class="muted small">본관 건물과 야외 온천 풀</p>
 
@@ -486,12 +486,12 @@ class: tight
 ### 04-1 · 실내 사진
 
 <Grid cols="3" gap="12">
-<figure class="m-0"><img src="./img/cheoksan/bath-1.jpg" class="w-full h-[200px] object-cover" alt="원형 온천 욕조" /><figcaption class="muted small mt-1">온돌 가족실 원형 온천 욕조</figcaption></figure>
-<figure class="m-0"><img src="./img/cheoksan/bath-2.jpg" class="w-full h-[200px] object-cover" alt="사각 욕조와 창밖 산" /><figcaption class="muted small mt-1">트윈 가족실 사각 욕조와 창밖 산</figcaption></figure>
-<figure class="m-0"><img src="./img/cheoksan/bath-3.jpg" class="w-full h-[200px] object-cover" alt="욕실 전경" /><figcaption class="muted small mt-1">트윈 가족실 욕실 전경</figcaption></figure>
-<figure class="m-0"><img src="./img/cheoksan/room-1.jpg" class="w-full h-[200px] object-cover" alt="트윈 가족실 침대" /><figcaption class="muted small mt-1">트윈 가족실 침대와 창</figcaption></figure>
-<figure class="m-0"><img src="./img/cheoksan/room-2.jpg" class="w-full h-[200px] object-cover" alt="온돌 가족실" /><figcaption class="muted small mt-1">온돌 가족실과 욕실 유리문</figcaption></figure>
-<figure class="m-0"><img src="./img/cheoksan/room-3.jpg" class="w-full h-[200px] object-cover" alt="세면대와 냉장고" /><figcaption class="muted small mt-1">세면대 · 냉장고 · 포트</figcaption></figure>
+<figure class="m-0"><img src="./img/cheoksan-bath-1.jpg" class="w-full h-[200px] object-cover" alt="원형 온천 욕조" /><figcaption class="muted small mt-1">온돌 가족실 원형 온천 욕조</figcaption></figure>
+<figure class="m-0"><img src="./img/cheoksan-bath-2.jpg" class="w-full h-[200px] object-cover" alt="사각 욕조와 창밖 산" /><figcaption class="muted small mt-1">트윈 가족실 사각 욕조와 창밖 산</figcaption></figure>
+<figure class="m-0"><img src="./img/cheoksan-bath-3.jpg" class="w-full h-[200px] object-cover" alt="욕실 전경" /><figcaption class="muted small mt-1">트윈 가족실 욕실 전경</figcaption></figure>
+<figure class="m-0"><img src="./img/cheoksan-room-1.jpg" class="w-full h-[200px] object-cover" alt="트윈 가족실 침대" /><figcaption class="muted small mt-1">트윈 가족실 침대와 창</figcaption></figure>
+<figure class="m-0"><img src="./img/cheoksan-room-2.jpg" class="w-full h-[200px] object-cover" alt="온돌 가족실" /><figcaption class="muted small mt-1">온돌 가족실과 욕실 유리문</figcaption></figure>
+<figure class="m-0"><img src="./img/cheoksan-room-3.jpg" class="w-full h-[200px] object-cover" alt="세면대와 냉장고" /><figcaption class="muted small mt-1">세면대 · 냉장고 · 포트</figcaption></figure>
 </Grid>
 
 ---
@@ -515,7 +515,7 @@ class: tight
 </div>
 <div>
 
-<img class="w-full h-[400px] object-cover" src="./img/cheoksan/bath-2.jpg" alt="사각 온천 욕조와 창밖 산" />
+<img class="w-full h-[400px] object-cover" src="./img/cheoksan-bath-2.jpg" alt="사각 온천 욕조와 창밖 산" />
 
 <p class="muted small">창밖으로 산이 보이는 객실 온천 욕조</p>
 
@@ -543,7 +543,7 @@ class: tight
 </div>
 <div>
 
-<img class="w-full h-[400px] object-cover" src="./img/cheoksan/bath-1.jpg" alt="원형 온천 욕조" />
+<img class="w-full h-[400px] object-cover" src="./img/cheoksan-bath-1.jpg" alt="원형 온천 욕조" />
 
 <p class="muted small">온돌 가족실 원형 온천 욕조</p>
 
@@ -632,7 +632,7 @@ class: tight
 
 ::right::
 
-<img src="./img/hoshikage/exterior.jpg" alt="호시카게 료칸 야간 외관" />
+<img src="./img/hoshikage-exterior.jpg" alt="호시카게 료칸 야간 외관" />
 
 <p class="muted small">조명이 켜진 호시카게 외관</p>
 
@@ -641,12 +641,12 @@ class: tight
 ### 05-1 · 실내 사진
 
 <Grid cols="3" gap="12">
-<figure class="m-0"><img src="./img/hoshikage/bath-hinoki-1.jpg" class="w-full h-[200px] object-cover" alt="히노끼탕과 대나무 정원" /><figcaption class="muted small mt-1">대나무 정원 쪽에서 본 히노끼탕</figcaption></figure>
-<figure class="m-0"><img src="./img/hoshikage/bath-hinoki-2.jpg" class="w-full h-[200px] object-cover" alt="히노끼탕 근접" /><figcaption class="muted small mt-1">히노끼탕과 다다미 거실</figcaption></figure>
-<figure class="m-0"><img src="./img/hoshikage/bath-hinoki-3.jpg" class="w-full h-[200px] object-cover" alt="길쭉한 히노끼탕" /><figcaption class="muted small mt-1">모리노 카게 객실의 긴 히노끼탕</figcaption></figure>
-<figure class="m-0"><img src="./img/hoshikage/room-living-bath.jpg" class="w-full h-[200px] object-cover" alt="거실 식탁과 히노끼탕" /><figcaption class="muted small mt-1">거실 식탁 뒤 히노끼탕</figcaption></figure>
-<figure class="m-0"><img src="./img/hoshikage/room-bed.jpg" class="w-full h-[200px] object-cover" alt="다다미 트윈 침실" /><figcaption class="muted small mt-1">다다미 트윈베드 침실</figcaption></figure>
-<figure class="m-0"><img src="./img/hoshikage/room-bath-view.jpg" class="w-full h-[200px] object-cover" alt="거실에서 본 욕조와 침실" /><figcaption class="muted small mt-1">거실에서 본 히노끼탕과 침실</figcaption></figure>
+<figure class="m-0"><img src="./img/hoshikage-bath-hinoki-1.jpg" class="w-full h-[200px] object-cover" alt="히노끼탕과 대나무 정원" /><figcaption class="muted small mt-1">대나무 정원 쪽에서 본 히노끼탕</figcaption></figure>
+<figure class="m-0"><img src="./img/hoshikage-bath-hinoki-2.jpg" class="w-full h-[200px] object-cover" alt="히노끼탕 근접" /><figcaption class="muted small mt-1">히노끼탕과 다다미 거실</figcaption></figure>
+<figure class="m-0"><img src="./img/hoshikage-bath-hinoki-3.jpg" class="w-full h-[200px] object-cover" alt="길쭉한 히노끼탕" /><figcaption class="muted small mt-1">모리노 카게 객실의 긴 히노끼탕</figcaption></figure>
+<figure class="m-0"><img src="./img/hoshikage-room-living-bath.jpg" class="w-full h-[200px] object-cover" alt="거실 식탁과 히노끼탕" /><figcaption class="muted small mt-1">거실 식탁 뒤 히노끼탕</figcaption></figure>
+<figure class="m-0"><img src="./img/hoshikage-room-bed.jpg" class="w-full h-[200px] object-cover" alt="다다미 트윈 침실" /><figcaption class="muted small mt-1">다다미 트윈베드 침실</figcaption></figure>
+<figure class="m-0"><img src="./img/hoshikage-room-bath-view.jpg" class="w-full h-[200px] object-cover" alt="거실에서 본 욕조와 침실" /><figcaption class="muted small mt-1">거실에서 본 히노끼탕과 침실</figcaption></figure>
 </Grid>
 
 ---
@@ -672,7 +672,7 @@ class: tight
 </div>
 <div>
 
-<img class="w-full h-[400px] object-cover" src="./img/hoshikage/bath-hinoki-3.jpg" alt="길쭉한 히노끼탕" />
+<img class="w-full h-[400px] object-cover" src="./img/hoshikage-bath-hinoki-3.jpg" alt="길쭉한 히노끼탕" />
 
 <p class="muted small">모리노 카게 객실의 히노끼탕</p>
 

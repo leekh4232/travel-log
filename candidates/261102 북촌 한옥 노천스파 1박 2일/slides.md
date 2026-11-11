@@ -80,7 +80,7 @@ class: tight
 
 ::right::
 
-<img src="./img/bukchon/hanok-courtyard.jpg" alt="아날로그 한옥 마당" />
+<img src="./img/hanok-courtyard.jpg" alt="아날로그 한옥 마당" />
 
 <p class="muted small">ㅁ자 한옥 마당. 오른쪽 날개가 스파룸 두 개</p>
 
@@ -89,12 +89,12 @@ class: tight
 ### 🏡-1 · 사진으로 보는 객실
 
 <Grid cols="3" gap="12">
-<figure class="m-0"><img src="./img/bukchon/hanok-night.jpg" class="w-full h-[200px] object-cover" alt="밤의 마당과 거실" /><figcaption class="muted small mt-1">밤의 마당. 가운데가 공용 거실(LP · 커피머신)</figcaption></figure>
-<figure class="m-0"><img src="./img/bukchon/hanok-bedroom.jpg" class="w-full h-[200px] object-cover" alt="스파룸 침구" /><figcaption class="muted small mt-1">스파룸. 온돌 바닥에 요 두 채</figcaption></figure>
-<figure class="m-0"><img src="./img/bukchon/spa1-room.jpg" class="w-full h-[200px] object-cover" alt="스파1 객실에서 본 욕실" /><figcaption class="muted small mt-1">스파1에서 본 욕실. 노천탕 바구니와 사우나 의자</figcaption></figure>
-<figure class="m-0"><img src="./img/bukchon/hanok-plan.jpg" class="w-full h-[200px] object-cover" alt="평면도" /><figcaption class="muted small mt-1">평면도. 스파1 · 2 끝에 'Spa'라 적힌 칸이 노천탕</figcaption></figure>
-<figure class="m-0"><img src="./img/bukchon/hanok-illust.jpg" class="w-full h-[200px] object-cover" alt="수채화 조감도" /><figcaption class="muted small mt-1">호스트가 올린 수채화 조감도</figcaption></figure>
-<figure class="m-0"><img src="./img/bukchon/hanok-bedding.jpg" class="w-full h-[200px] object-cover" alt="한지 창과 이불" /><figcaption class="muted small mt-1">한지 창호와 이불. 벽장에 충전기 · 칫솔 치약</figcaption></figure>
+<figure class="m-0"><img src="./img/hanok-night.jpg" class="w-full h-[200px] object-cover" alt="밤의 마당과 거실" /><figcaption class="muted small mt-1">밤의 마당. 가운데가 공용 거실(LP · 커피머신)</figcaption></figure>
+<figure class="m-0"><img src="./img/hanok-bedroom.jpg" class="w-full h-[200px] object-cover" alt="스파룸 침구" /><figcaption class="muted small mt-1">스파룸. 온돌 바닥에 요 두 채</figcaption></figure>
+<figure class="m-0"><img src="./img/spa1-room.jpg" class="w-full h-[200px] object-cover" alt="스파1 객실에서 본 욕실" /><figcaption class="muted small mt-1">스파1에서 본 욕실. 노천탕 바구니와 사우나 의자</figcaption></figure>
+<figure class="m-0"><img src="./img/hanok-plan.jpg" class="w-full h-[200px] object-cover" alt="평면도" /><figcaption class="muted small mt-1">평면도. 스파1 · 2 끝에 'Spa'라 적힌 칸이 노천탕</figcaption></figure>
+<figure class="m-0"><img src="./img/hanok-illust.jpg" class="w-full h-[200px] object-cover" alt="수채화 조감도" /><figcaption class="muted small mt-1">호스트가 올린 수채화 조감도</figcaption></figure>
+<figure class="m-0"><img src="./img/hanok-bedding.jpg" class="w-full h-[200px] object-cover" alt="한지 창과 이불" /><figcaption class="muted small mt-1">한지 창호와 이불. 벽장에 충전기 · 칫솔 치약</figcaption></figure>
 </Grid>
 
 ---
@@ -120,7 +120,7 @@ class: tight
 </div>
 <div>
 
-<img class="w-full h-[400px] object-cover" src="./img/bukchon/hanok-illust.jpg" alt="수채화 조감도의 노천탕" />
+<img class="w-full h-[400px] object-cover" src="./img/hanok-illust.jpg" alt="수채화 조감도의 노천탕" />
 
 <p class="muted small">조감도 오른쪽 위, 파란 물이 두 스파룸의 노천탕</p>
 
@@ -184,7 +184,7 @@ class: tight
 
 ::right::
 
-<img src="./img/bukchon/changdeok-buyongji.jpg" alt="창덕궁 후원 부용지" />
+<img src="./img/changdeok-buyongji.jpg" alt="창덕궁 후원 부용지" />
 
 <p class="muted small">후원 부용지와 주합루</p>
 
@@ -212,7 +212,7 @@ class: tight
 
 ::right::
 
-<img src="./img/bukchon/jongmyo-jeongjeon.jpg" alt="종묘 정전" />
+<img src="./img/jongmyo-jeongjeon.jpg" alt="종묘 정전" />
 
 <p class="muted small">종묘 정전</p>
 
@@ -240,7 +240,7 @@ class: tight
 
 ::right::
 
-<img src="./img/bukchon/bukchon-11gil.jpg" alt="북촌로11길 저녁" />
+<img src="./img/bukchon-11gil.jpg" alt="북촌로11길 저녁" />
 
 <p class="muted small">북촌로11길의 해 질 녘</p>
 
@@ -268,7 +268,7 @@ class: tight
 
 ::right::
 
-<img src="./img/bukchon/gyeongbok-geunjeongjeon.jpg" alt="경복궁 근정전" />
+<img src="./img/gyeongbok-geunjeongjeon.jpg" alt="경복궁 근정전" />
 
 <p class="muted small">경복궁 근정전</p>
 

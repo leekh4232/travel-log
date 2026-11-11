@@ -27,7 +27,7 @@ for deck in "$1"/*/slides.md; do
 
   url="/$(urlenc "$trip")/"
   img=""
-  cover=$(ls "$1/$trip"/cover.* 2>/dev/null | head -1 || true)
+  cover=$(ls "$1/$trip"/img/cover.* 2>/dev/null | head -1 || true)
   if [[ -n "$cover" ]]; then
     cp "$cover" "$OUT/$trip/"
     img="<img src=\"${url}$(urlenc "$(basename "$cover")")\" alt=\"\" loading=\"lazy\">"

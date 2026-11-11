@@ -83,7 +83,7 @@ class: tight
 
 ::right::
 
-<img src="./img/geumsan/donam-eungdodang.jpg" alt="돈암서원 응도당" />
+<img src="./img/donam-eungdodang.jpg" alt="돈암서원 응도당" />
 
 <p class="muted small">돈암서원 응도당</p>
 
@@ -112,7 +112,7 @@ class: tight
 
 ::right::
 
-<img src="./img/geumsan/gwanchoksa-mireuk.jpg" alt="관촉사 석조미륵보살입상" />
+<img src="./img/gwanchoksa-mireuk.jpg" alt="관촉사 석조미륵보살입상" />
 
 <p class="muted small">관촉사 석조미륵보살입상(은진미륵)</p>
 
@@ -140,7 +140,7 @@ class: tight
 
 ::right::
 
-<img src="./img/geumsan/chilbaek.jpg" alt="금산 칠백의총" />
+<img src="./img/chilbaek.jpg" alt="금산 칠백의총" />
 
 <p class="muted small">칠백의총 의총 앞 전경</p>
 
@@ -169,7 +169,7 @@ class: tight
 
 ::right::
 
-<img src="./img/geumsan/boseoksa-ginkgo.jpg" alt="금산 보석사 은행나무" />
+<img src="./img/boseoksa-ginkgo.jpg" alt="금산 보석사 은행나무" />
 
 <p class="muted small">보석사 은행나무 (천연기념물)</p>
 
@@ -194,7 +194,7 @@ class: tight
 
 ::right::
 
-<img src="./img/geumsan/gos-view.jpg" alt="하늘물빛정원 전경" />
+<img src="./img/gos-view.jpg" alt="하늘물빛정원 전경" />
 
 <p class="muted small">장산저수지와 하늘물빛정원 전경</p>
 
@@ -203,12 +203,12 @@ class: tight
 ### 🏡-1 · 객실과 시설 사진
 
 <Grid cols="3" gap="12">
-<figure class="m-0"><img src="./img/geumsan/gos-lakestay.jpg" class="w-full h-[200px] object-cover" alt="레이크스테이 외부" /><figcaption class="muted small mt-1">레이크스테이 외부 (호숫가 캐빈)</figcaption></figure>
-<figure class="m-0"><img src="./img/geumsan/gos-garden-bed.jpg" class="w-full h-[200px] object-cover" alt="가든스테이 커플 타입 침실" /><figcaption class="muted small mt-1">가든스테이 커플 타입 침실</figcaption></figure>
-<figure class="m-0"><img src="./img/geumsan/gos-jacuzzi.jpg" class="w-full h-[200px] object-cover" alt="가든스테이 외부 자쿠지" /><figcaption class="muted small mt-1">테라스 자쿠지 (온수는 50,000원 추가)</figcaption></figure>
-<figure class="m-0"><img src="./img/geumsan/gos-spa.jpg" class="w-full h-[200px] object-cover" alt="숯가마 찜질방" /><figcaption class="muted small mt-1">참숯가마 찜질방 · 투숙객 무료</figcaption></figure>
-<figure class="m-0"><img src="./img/geumsan/gos-cafe.jpg" class="w-full h-[200px] object-cover" alt="식물원 베이커리카페" /><figcaption class="muted small mt-1">식물원 베이커리카페 · 주말 10:00~21:00</figcaption></figure>
-<figure class="m-0"><img src="./img/geumsan/gos-sotbap.jpg" class="w-full h-[200px] object-cover" alt="하물정 솥밥" /><figcaption class="muted small mt-1">하물정 솥밥 · 주말 10:00~21:00</figcaption></figure>
+<figure class="m-0"><img src="./img/gos-lakestay.jpg" class="w-full h-[200px] object-cover" alt="레이크스테이 외부" /><figcaption class="muted small mt-1">레이크스테이 외부 (호숫가 캐빈)</figcaption></figure>
+<figure class="m-0"><img src="./img/gos-garden-bed.jpg" class="w-full h-[200px] object-cover" alt="가든스테이 커플 타입 침실" /><figcaption class="muted small mt-1">가든스테이 커플 타입 침실</figcaption></figure>
+<figure class="m-0"><img src="./img/gos-jacuzzi.jpg" class="w-full h-[200px] object-cover" alt="가든스테이 외부 자쿠지" /><figcaption class="muted small mt-1">테라스 자쿠지 (온수는 50,000원 추가)</figcaption></figure>
+<figure class="m-0"><img src="./img/gos-spa.jpg" class="w-full h-[200px] object-cover" alt="숯가마 찜질방" /><figcaption class="muted small mt-1">참숯가마 찜질방 · 투숙객 무료</figcaption></figure>
+<figure class="m-0"><img src="./img/gos-cafe.jpg" class="w-full h-[200px] object-cover" alt="식물원 베이커리카페" /><figcaption class="muted small mt-1">식물원 베이커리카페 · 주말 10:00~21:00</figcaption></figure>
+<figure class="m-0"><img src="./img/gos-sotbap.jpg" class="w-full h-[200px] object-cover" alt="하물정 솥밥" /><figcaption class="muted small mt-1">하물정 솥밥 · 주말 10:00~21:00</figcaption></figure>
 </Grid>
 
 ---
@@ -234,7 +234,7 @@ class: tight
 </div>
 <div>
 
-<img class="w-full h-[400px] object-cover" src="./img/geumsan/gos-map.jpg" alt="하늘물빛정원 시설 안내도" />
+<img class="w-full h-[400px] object-cover" src="./img/gos-map.jpg" alt="하늘물빛정원 시설 안내도" />
 
 <p class="muted small">단지 시설 안내도</p>
 
@@ -294,7 +294,7 @@ class: tight
 
 ::right::
 
-<img src="./img/geumsan/baetijae.jpg" alt="배티재 정상의 완주군 관문" />
+<img src="./img/baetijae.jpg" alt="배티재 정상의 완주군 관문" />
 
 <p class="muted small">배티재 정상 완주 쪽 관문. 금산 쪽 내리막에 충장사와 대첩비가 있어요</p>
 

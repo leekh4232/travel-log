@@ -50,7 +50,7 @@ manuscript: true
 </div>
 <div>
 
-<img src="./img/imsil/route-map.svg" alt="임실 당일치기 동선 약도: 1 호국원(강진면) → 2 한오백년추어탕(임실읍) → 3 사선대 · 운서정(관촌면) → 4 상관리조트(완주 상관면) → 서울 방향" style="display:block;height:440px;margin:0 auto" />
+<img src="./img/route-map.svg" alt="임실 당일치기 동선 약도: 1 호국원(강진면) → 2 한오백년추어탕(임실읍) → 3 사선대 · 운서정(관촌면) → 4 상관리조트(완주 상관면) → 서울 방향" style="display:block;height:440px;margin:0 auto" />
 
 <p class="muted small">실제 지도가 아닌 약도예요. 점의 위치는 대략적인 방향과 거리만 맞췄어요.</p>
 
@@ -82,7 +82,7 @@ layout: magazine
 
 ::right::
 
-<img src="./img/imsil/hoguk.jpg" alt="국립임실호국원 현충문과 현충탑" />
+<img src="./img/hoguk.jpg" alt="국립임실호국원 현충문과 현충탑" />
 
 <p class="muted small">현충문과 그 뒤의 현충탑</p>
 
@@ -109,7 +109,7 @@ class: tight
 
 ::right::
 
-<img src="./img/imsil/chueotang.jpg" alt="한오백년추어탕 임실점의 추어탕 상차림" />
+<img src="./img/chueotang.jpg" alt="한오백년추어탕 임실점의 추어탕 상차림" />
 
 <p class="muted small">한오백년 임실점의 추어탕 · 돌솥밥 상차림</p>
 
@@ -133,7 +133,7 @@ layout: magazine
 
 ::right::
 
-<img src="./img/imsil/saseondae.jpg" alt="단풍이 든 사선대 관광지와 오원천" />
+<img src="./img/saseondae.jpg" alt="단풍이 든 사선대 관광지와 오원천" />
 
 <p class="muted small">가을의 사선대 관광지와 오원천</p>
 
@@ -160,7 +160,7 @@ class: tight
 
 ::right::
 
-<img src="./img/imsil/spa.jpg" alt="상관리조트 지장수 유황온천 대욕장" />
+<img src="./img/spa.jpg" alt="상관리조트 지장수 유황온천 대욕장" />
 
 <p class="muted small">지장수 · 유황온천 대욕장</p>
 

@@ -70,7 +70,7 @@ class: tight
 
 ::right::
 
-<img src="./img/asan/oeam-village.jpg" alt="외암민속마을의 초가와 기와집" />
+<img src="./img/oeam-village.jpg" alt="외암민속마을의 초가와 기와집" />
 
 <p class="muted small">초가와 기와집이 섞인 외암마을 풍경</p>
 
@@ -95,7 +95,7 @@ layout: magazine
 
 ::right::
 
-<img src="./img/asan/oeam-thatch.jpg" alt="외암마을 초가 처마와 코스모스" />
+<img src="./img/oeam-thatch.jpg" alt="외암마을 초가 처마와 코스모스" />
 
 <p class="muted small">외암마을 초가 처마와 가을꽃</p>
 
@@ -119,7 +119,7 @@ layout: magazine
 
 ::right::
 
-<img src="./img/asan/hyeonchungsa.jpg" alt="현충사 본전" />
+<img src="./img/hyeonchungsa.jpg" alt="현충사 본전" />
 
 <p class="muted small">현충사 본전으로 오르는 계단</p>
 
@@ -144,7 +144,7 @@ layout: magazine
 
 ::right::
 
-<img src="./img/asan/ginkgo-road.jpg" alt="곡교천 은행나무길의 노란 터널" />
+<img src="./img/ginkgo-road.jpg" alt="곡교천 은행나무길의 노란 터널" />
 
 <p class="muted small">절정기의 은행나무 터널</p>
 
@@ -168,7 +168,7 @@ layout: magazine
 
 ::right::
 
-<img src="./img/asan/onyang-station.jpg" alt="온양온천역" />
+<img src="./img/onyang-station.jpg" alt="온양온천역" />
 
 <p class="muted small">온양온천역 — 신천탕까지 도보 5분</p>
 
@@ -179,12 +179,12 @@ hideInToc: true
 <div class="text-center"><span class="kicker ai">에필로그 · 토심이의 여행 계획</span></div>
 
 <div class="comic">
-<div class="panel"><img src="./img/asan/comic-1.jpg" alt="1컷" /></div>
-<div class="panel"><img src="./img/asan/comic-2.jpg" alt="2컷" /></div>
-<div class="panel"><img src="./img/asan/comic-3.jpg" alt="3컷" /></div>
-<div class="panel"><img src="./img/asan/comic-4.jpg" alt="4컷" /></div>
-<div class="panel"><img src="./img/asan/comic-5.jpg" alt="5컷" /></div>
-<div class="panel"><img src="./img/asan/comic-6.jpg" alt="6컷" /></div>
+<div class="panel"><img src="./img/comic-1.jpg" alt="1컷" /></div>
+<div class="panel"><img src="./img/comic-2.jpg" alt="2컷" /></div>
+<div class="panel"><img src="./img/comic-3.jpg" alt="3컷" /></div>
+<div class="panel"><img src="./img/comic-4.jpg" alt="4컷" /></div>
+<div class="panel"><img src="./img/comic-5.jpg" alt="5컷" /></div>
+<div class="panel"><img src="./img/comic-6.jpg" alt="6컷" /></div>
 </div>
 
 <Core color="ai">우쭈쭈님, 우리 계획도 완벽. 영업시간은 다 체크했어요 ☺️</Core>
