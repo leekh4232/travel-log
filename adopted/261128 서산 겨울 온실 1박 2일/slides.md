@@ -118,7 +118,7 @@ eyebrow: schedule · 11/28 토 ~ 11/29 일
 <li><b>09:30</b>티룸에서 차 한 잔<br/>짐 정리</li>
 <li><b>10:50</b>체크아웃<br/>퇴실 11시</li>
 <li><b>11:30</b>우렁이식당<br/>우렁이정식 점심</li>
-<li class="now"><b>12:40</b>귀가 출발<br/>☕ 휴게소 쉬기</li>
+<li class="now"><b>12:40</b>귀가 출발<br/>☕ 쉬기 · ♨️ 선택</li>
 <li><b>15:05</b>서초 집 도착</li>
 </Timeline>
 
@@ -481,6 +481,49 @@ hideInToc: true
 <Core color="ai">둘이라면 <span class="hl ok">우렁이정식 2인 28,000원</span>이면 충분해요. 정식에 초무침 · 제육 · 된장찌개가 다 나와서 단품을 더 시킬 필요 없어요.</Core>
 
 ---
+class: tight
+---
+
+# 05 · 귀가길 온천 — 컨디션 보고 골라요
+
+점심 뒤 귀가길에 목욕만 하고 가는 선택 일정이에요. 후보 두 곳 모두 서해안고속도로 발안IC 근처라 크게 돌지 않아요.
+
+### ♨️ 후보 1 · 월문온천 — 조용한 온천 목욕탕
+
+<p class="small"><Chip color="ai">내비 검색</Chip> 월문온천 · <Chip kind="fill">주소</Chip> 화성시 팔탄면 버들로1597번길 5 · <span class="whitespace-nowrap">☎ 031-226-5000</span></p>
+<p class="small"><Chip color="py">🚗 이동</Chip> 우렁이식당에서 · 송악IC → 발안IC · 약 40km · 40분 → 13:20</p>
+
+<Grid cols="4" gap="10">
+<Tile kind="soft" color="ok" tag="🅿️ 주차" title="넓은 주차장 · 이용객 무료">요금을 받는다는 안내도 있어 현장 확인</Tile>
+<Tile kind="soft" color="ok" tag="🧼 청결" title="최근 새단장 · 깨끗하다는 후기">물이 미끈하고 좋다는 평이 많아요</Tile>
+<Tile kind="soft" color="py" tag="영업 · 요금" title="06:00~20:00 · 대인 11,000원">연중무휴 · 입장 마감 19:10</Tile>
+<Tile kind="soft" color="py" tag="분위기" title="찜질방 · 놀이시설 없음">목욕만 하는 동네 온천탕</Tile>
+</Grid>
+
+<Core color="ai">들르면 <span class="hl warn">귀가가 16시쯤</span>으로 늦어져요 (목욕 90분 기준). 피곤하면 들르지 말고 곧장 집으로 가요.</Core>
+
+---
+class: tight
+hideInToc: true
+---
+
+# 05-1 · 귀가길 온천 — 후보 2
+
+### ♨️ 향남힐링스파 — 5층 온천탕만 이용
+
+<p class="small"><Chip color="ai">내비 검색</Chip> 향남힐링스파 · <Chip kind="fill">주소</Chip> 화성시 향남읍 향남로 430-16 5층 · <span class="whitespace-nowrap">☎ 1899-0936</span></p>
+<p class="small"><Chip color="py">🚗 이동</Chip> 우렁이식당에서 · 송악IC → 발안IC · 약 35km · 35분 → 13:15</p>
+
+<Grid cols="4" gap="10">
+<Tile kind="soft" color="ok" tag="🅿️ 주차" title="지하주차장 · 4시간 무료">나갈 때 카운터에 차량번호 등록 · 만차면 옆 향남환승터미널 공영주차장(도보 5분)</Tile>
+<Tile kind="soft" color="warn" tag="🧼 청결" title="청결 후기는 못 찾았어요">현장 확인</Tile>
+<Tile kind="soft" color="py" tag="영업 · 요금" title="06:00~23:00 · 주말 11,000원">매일 영업 · 온천만 이용하는 요금</Tile>
+<Tile kind="soft" color="warn" tag="분위기" title="4층 찜질방 · 키즈존">주말엔 가족 손님이 많을 수 있어요</Tile>
+</Grid>
+
+<Core color="ai">주차와 청결이 우선이면 <span class="hl ok">월문온천</span>이 먼저예요. 향남힐링스파는 월문온천 주차장이 차 있을 때의 대안으로 두세요.</Core>
+
+---
 layout: cover
 mesh: none
 hideInToc: true
@@ -506,6 +549,7 @@ eyebrow: " "
 <li><b>서라온 석식</b> 18시 · 1인 50,000원 · 그날 메뉴 물어보기 · 041-669-1570</li>
 <li><b>유카타 체험</b> 체크인 때 프런트 예약 · 041-669-1570</li>
 <li><b>옛날우렁이식당 본점</b> 전화 예약 가능 · 11:30 도착 · 041-363-0868</li>
+<li><b>귀가길 온천 (선택)</b> 예약 없음 · 월문온천 031-226-5000 · 향남힐링스파 1899-0936</li>
 </ul>
 </div>
 <div class="fcard">
